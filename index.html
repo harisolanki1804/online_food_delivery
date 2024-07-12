@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBites!</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <script src="https://kit.fontawesome.com/4cac3843a1.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Namdhinggo:wght@400;500;600;700;800&family=Noto+Serif+Khojki:wght@400..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="website">
+        <header class="mb-3 border-bottom">
+            <div class="container-fluid">
+                <div class="d-flex flex-wrap align-items-center justify-content-center">
+                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                        <img src="./Images/Logo.png" class="web_logo">
+                    </a>
+
+                    <ul class="nav col-12 col-lg-6 me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="index.html" class="nav-link mx-2 link-danger">Home</a></li>
+                        <li><a href="menu.html" class="nav-link mx-2 link-dark">Menu</a></li>
+                        <li><a href="feedback.html" class="nav-link mx-2 link-dark">Feedback</a></li>
+                        <li><a href="getapp.html" class="nav-link mx-2 link-dark">Get App</a></li>
+                    </ul>
+
+                    <form class="col-12 col-lg-2 mb-3 mb-lg-0 me-lg-4">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    </form>
+
+                    <div class="dropdown text-end">
+                        <a href="#" class="d-block link-dark text-decoration-none user" id="dropdownUser1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-user-circle"></i></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container image_input">
+                <div class="userinput input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Enter Delivery Address...."
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn" type="button" id="button-addon2">Find Food</button>
+                </div>
+            </div>
+            <div class="categories mt-5 mb-5">
+                <h1>CATEGORIES</h1>
+                <div class="list mt-5 mb-2">
+                    <div class="item">
+                        <a href="menu.html">
+                            <img src="./Images/cat_1.png">
+                            <p>PIZZA</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="burger.html">
+                            <img src="./Images/cat_2.png">
+                            <p>BURGER</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="fries.html">
+                            <img src="./Images/cat_6.png">
+                            <p>FRIES</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="sandwich.html">
+                            <img src="./Images/cat_3.png">
+                            <p>SANDWICH</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="drinks.html">
+                            <img src="./Images/cat_4.png">
+                            <p>DRINK</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="desert.html">
+                            <img src="./Images/cat_5.png">
+                            <p>DESERT</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="popular mt-5 mb-5">
+                <h1>POPULAR</h1>
+                <div class="menu_items">
+                    <div class="menu">
+                        <img src="./Images/pizza1.jpeg">
+                        <div class="product_info">
+                            <h3>Cheese Pizza</h3>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>199</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card_btn">
+                            <button class="ratings"><i class="fa-solid fa-star"></i> 4.4</button>
+                            <button class="order">Add To Cart <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <img src="./Images/burger1.png">
+                        <div class="product_info">
+                            <h3>Double Patty Burger</h3>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>99</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card_btn">
+                            <button class="ratings"><i class="fa-solid fa-star"></i> 4.4</button>
+                            <button class="order">Add To Cart <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <img src="./Images/fries1.png">
+                        <div class="product_info">
+                            <h3>Peri-Peri Fries</h3>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>79</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card_btn">
+                            <button class="ratings"><i class="fa-solid fa-star"></i> 4.3</button>
+                            <button class="order">Add To Cart <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <img src="./Images/pizza2.jpeg">
+                        <div class="product_info">
+                            <h3>Farmhouse Pizza</h3>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>349</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card_btn">
+                            <button class="ratings"><i class="fa-solid fa-star"></i> 4.2</button>
+                            <button class="order">Add To Cart <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <img src="./Images/sandwich1.jpg">
+                        <div class="product_info">
+                            <h3>Bahubali Grilled</h3>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>339</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card_btn">
+                            <button class="ratings"><i class="fa-solid fa-star"></i> 4.1</button>
+                            <button class="order">Add To Cart <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <img src="./Images/burger2.png">
+                        <div class="product_info">
+                            <h3>Paneer Burger</h3>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>249</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card_btn">
+                            <button class="ratings"><i class="fa-solid fa-star"></i> 4.0</button>
+                            <button class="order">Add To Cart <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <img src="./Images/desert1.jpeg ">
+                        <div class="product_info">
+                            <h3>Choco Lava Cake</h3>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>119</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card_btn">
+                            <button class="ratings"><i class="fa-solid fa-star"></i> 4.0</button>
+                            <button class="order">Add To Cart <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <img src="./Images/desert2.jpeg">
+                        <div class="product_info">
+                            <h3>Red Velvet Cake</h3>
+                            <p><i class="fa-solid fa-indian-rupee-sign"></i>139</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card_btn">
+                            <button class="ratings"><i class="fa-solid fa-star"></i> 3.9</button>
+                            <button class="order">Add To Cart <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart">
+                <button type="button" class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="iCount position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        0
+                    </span>
+                </button>
+            </div>
+        </main>
+        <footer class="border-top mt-3">
+            <div class="web_footer container-fluid">
+                <div class="row row-cols-1 row-cols-md-3 g-2">
+                    <div class="col">
+                        <h4 class="ftr_head">Useful Links</h4>
+                        <ul class="useful_links">
+                            <li>
+                                <a href="#">Refund Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms & Condition</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ'S</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4 class="ftr_head">Contact Us</h4>
+                        <ul class="con_supp">
+                            <li>
+                                <a href="#">Customer Support</a>
+                            </li>
+                            <li>
+                                <a href="#">support@quickbites2024.com</a>
+                            </li>
+                            <li>
+                                <a href="#">Franchise Enquiry</a>
+                            </li>
+                            <li>
+                                <a href="#">info@quickbites2024.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4 class="ftr_head">Follow Us</h4>
+                        <ul class="social_icons">
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-x-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-pinterest-p"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <span class="copyright">
+                    © 2024 QuickBites! All Rights Reserved.
+                </span>
+            </div>
+        </footer>
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
